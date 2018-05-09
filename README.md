@@ -9,7 +9,8 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-From root directory run `npm run electron`
+To run as application: From root directory run `npm run electron`
+To run in browser: From root directory run `npm start`
 
 ## Electron APIs
 
