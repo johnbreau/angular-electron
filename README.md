@@ -1,6 +1,7 @@
 # AngularElectron
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.6.
+and was based on this [tutorial](https://coursetro.com/posts/code/125/Angular-5-Electron-Tutorial).
 
 ## Code scaffolding
 
@@ -12,7 +13,7 @@ From root directory run `npm run electron`
 
 ## Electron APIs
 
- ngx-electron (v. 1.0.3) was used to expose the Electron APIs - https://github.com/ThorstenHans/ngx-electron
+ [ngx-electron](https://github.com/ThorstenHans/ngx-electron) (v. 1.0.3) was used to expose the Electron APIs.
 
 ## Running unit tests
 
