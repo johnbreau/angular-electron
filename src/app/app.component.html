@@ -1,11 +1,11 @@
-<div style="text-align:center">
+<div>
   <div class="menuBar">
     <div class="dropdown">
       <div class="dropbtn">File</div>
         <div class="dropdown-content">
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
+          <a [routerLink]="['./']">Home</a>
+          <a [routerLink]="['./about']">About</a>
+          <a [routerLink]="['./splash']">Splash</a>
         </div>
       </div>
     <div class="dropdown">
@@ -41,5 +41,5 @@
       </div>
     </div>
   </div>
-  <button (click)="launchWindow()">Launch a Window</button>
+  <router-outlet></router-outlet>
 </div>
