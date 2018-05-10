@@ -1,29 +1,45 @@
 <div style="text-align:center">
   <div class="menuBar">
-    <div class="dropdown" dropdown>
-      <div class="dropdown-toggle" dropdownToggle>File</div>
-      <ul class="dropdown-menu" dropdownMenu>
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
-        <li>Item Four</li>
-        <li>Item Five</li>
-      </ul>
-    </div>
-    <div class="dropdown" dropdown>
-        <div class="dropdown-toggle" dropdownToggle>Edit</div>
-        <ul class="dropdown-menu" dropdownMenu>
-          <li>Item One</li>
-          <li>Item Two</li>
-          <li>Item Three</li>
-          <li>Item Four</li>
-          <li>Item Five</li>
-        </ul>
+    <div class="dropdown">
+      <div class="dropbtn">File</div>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
       </div>
-    <div class="menuButton">Edit</div>
-    <div class="menuButton">History</div>
-    <div class="menuButton">Bookmarks</div>
-    <div class="menuButton">Window</div>
+    <div class="dropdown">
+      <div class="dropbtn">Edit</div>
+      <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <div class="dropbtn">History</div>
+      <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <div class="dropbtn">Bookmarks</div>
+      <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <div class="dropbtn">Window</div>
+      <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
   </div>
   <button (click)="launchWindow()">Launch a Window</button>
 </div>
