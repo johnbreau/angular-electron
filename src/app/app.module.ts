@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import {NgxElectronModule} from 'ngx-electron';
 import { DropdownModule } from 'angular-custom-dropdown';
 
-import { routing } from './app-routing-module';
+import { AppRoutingModule } from './app-routing-module';
 import { AppComponent } from './app.component';
 import { SplashComponent } from './splash/splash.component';
 import { AboutComponent } from './about/about.component';
@@ -18,7 +18,7 @@ import { AboutComponent } from './about/about.component';
     BrowserModule,
     NgxElectronModule,
     DropdownModule,
-    routing
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
